@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     
+    <!-- mdl theme -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-purple.min.css">
     <style>
         /*body {
             position: relative;
@@ -39,19 +41,23 @@
             /*background: url('img/bg.jpg');*/
             /*background: url('http://www.toca-ch.com/data/walls/127/25966247.jpg');*/
             /*background: url('http://bsnscb.com/data/out/22/39154080-blackboard-wallpapers.jpg');*/
-            background: url('img/bg-backboard.jpg');
-            /*background-color: #;*/
+            /*background: url('img/bg-backboard.jpg');*/
+            /*background-color: #003B3B;*/
             background-size: cover;
             background-position: center center;
         }
         #mishima2018.mdl-card{
-            width: 256px;
-            height: 256px;
+            width: 100%;
+            height: 100%;
+            /*background-size: cover;*/
+            /*background-position: center;*/
             background: url('img/cover-fmd.png') center / cover;
         }
         #jsh2016.mdl-card{
-            width: 256px;
-            height: 256px;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
             background: url('img/cover-jfmd.png') center / cover;
         }
     </style>
@@ -59,8 +65,8 @@
 <body>
     <!-- material disign lite -->
 
-    <div class="mdl-layout mdl-js-layout">
-        <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+        <header class="mdl-layout__header"> <!-- mdl-layout__header--transparent"> -->
             <div class="mdl-layout__header-row">
                 
                 <!-- Title --> 
@@ -71,79 +77,167 @@
                 
                 <!-- Navigation -->
                 <nav class="mdl-navigation">
-                    <a class="mdl-navigation__link" href="">Home</a>
+                    <!-- <a class="mdl-navigation__link" href="">Home</a> -->
                     <!-- <a class="mdl-navigation__link" href="">*</a> -->
                     <!-- <a class="mdl-navigation__link" href="">*</a> -->
                     <!-- <a class="mdl-navigation__link" href="">*</a> -->
                 </nav>
             </div>
+
+            <!-- Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Home</a>
+                <a href="#scroll-tab-2" class="mdl-layout__tab">Slide</a>
+                <a href="#scroll-tab-3" class="mdl-layout__tab">Docs</a>
+            </div>
+
         </header>
+        <!--
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">shumez</span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="">Home</a>
-                <!-- <a class="mdl-navigation__link" href="">*</a> -->
-                <!-- <a class="mdl-navigation__link" href="">*</a> -->
-                <!-- <a class="mdl-navigation__link" href="">*</a> -->
+                <a class="mdl-navigation__link" href="">*</a>
+                <a class="mdl-navigation__link" href="">*</a>
+                <a class="mdl-navigation__link" href="">*</a>
             </nav>
         </div>
+        -->
 
         <!-- main -->
         <main class="mdl-layout__content">
-            <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--4-col mdl--4-col-tablet mdl-cell--4-phone">
+            <section class="mdl-layout__tab-pannel is-active" id="scroll-tab-1">
+                <div class="page-content">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
 
-                    <!-- mdl-card -->
-                    <div class="mdl-card" id="mishima2018">
-                        <div class="mdl-card__title mdl-card--expand">
-                            <h2 class="mdl-card__title-text">Mishima, E., Umezawa, S. 2018</h2>
+                            <!-- mdl-card -->
+                            <div class="mdl-card" id="mishima2018">
+                                <div class="mdl-card__title mdl-card--expand">
+                                    <h2 class="mdl-card__title-text">Mishima, E., Umezawa, S. 2018</h2>
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <!-- <span class=""></span> -->
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                     Low frequency of cervicocranial artery involvement in Japanese with renal artery fibromuscular dysplasia compared with that of Caucasians. Clinical and experimental nephrology, 1-6.
+                                </div>
+                                <div class="mdl-card--border">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="">Read</a>
+                                    <!-- <button class="mdl-button mdl-js-button mdl-button--raised"></button> -->
+                                </div>
+                            </div>
                         </div>
-                        <div class="mdl-card__actions">
-                            <!-- <span class=""></span> -->
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+
+                            <!-- mdl-card -->
+                            <div class="mdl-card" id="jsh2016">
+                                <div class="mdl-card__title mdl-card--expand">
+                                    <h2 class="mdl-card__title-text">JSH 2016</h2>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    
+                                </div>
+                                <div class="mdl-card--border">
+                                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="https://docs.google.com/presentation/d/1-mp1IXABgL0KLXJR1AEZC1ZHKEuye2SdowBXBHpJtc4/edit?usp=sharing">Slide</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mdl-card__supporting-text">
-                             Low frequency of cervicocranial artery involvement in Japanese with renal artery fibromuscular dysplasia compared with that of Caucasians. Clinical and experimental nephrology, 1-6.
-                        </div>
-                        <div class="mdl-card--border">
-                            <a class="mdl-button mdl-js-button mdl-button--raised" href="">Read</a>
-                            <!-- <button class="mdl-button mdl-js-button mdl-button--raised"></button> -->
-                        </div>
+                        <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet mdl-cell--12-col-phone"></div>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-cell--4-col mdl--4-col-tablet mdl-cell--4-phone">
 
-                    <!-- mdl-card -->
-                    <div class="mdl-card" id="jsh2016">
-                        <div class="mdl-card__title mdl-card--expand">
-                            <h2 class="mdl-card__title-text">JSH 2016</h2>
+
+
+            </section>
+
+
+            <section class="mdl-layout__tab-pannel" id="scroll-tab-2">
+                <div class="page-content">
+                    <h4>Publication</h4>
+
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone mdl-cell--12-col-tablet">
+
+                            <div class="mdl-card">
+                                <div class="mdl-card__supporting-text">
+                                    <ul class="mdl-list">
+                                        <li class="mdl-list__item mdl-list__item--three-line">
+                                            <span class="mdl-list__item-primary-content">
+                                                <span>Mishima, E., Umezawa, S. 2018</span>
+                                                <span class="mdl-list__item-text-body">
+                                                    Mishima, E., Umezawa, S., Suzuki, T., Fujimura, M., Abe, M., Hashimoto, J., Abe, T. and Ito, S. (2018). Low frequency of cervicocranial artery involvement in Japanese with renal artery fibromuscular dysplasia compared with that of Caucasians. Clinical and experimental nephrology, 1-6.
+                                                </span>
+                                            </span>
+                                            <span class="mdl-list__item-secondary-content"></span>
+                                        </li>
+                                    </ul>    
+                                </div>
+                                
+                            </div>
                         </div>
-                        <div class="mdl-card__supporting-text">
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-phone mdl-cell--12-col-tablet">
+                            <!-- <div class="mdl-card"> -->
+                            <iframe src="https://docs.google.com/document/d/e/2PACX-1vScbtK295p6w5dOXmrrfP-4-2rGLKtbjDClG-a9o0SaHegiX4B70gKW7qYOhfBE1It6Q6gD9dYx5sEJ/pub?embedded=true"></iframe>
+                            <!-- </div> -->
+
                             
                         </div>
-                        <div class="mdl-card--border">
-                            <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="">Read</a>
-                        </div>
+                    </div>
+
+                    <div class="mdl-grid">
+                        <!-- <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
+                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSvuiMN0w9sVFEr8J48wMdOjnbRDU3vBQgp_XcrBJVBdlIBOzSQXemvMj1tw_P3_JaRoBA1xkIqL0Cl/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1588" height="1220" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            
+                        </div> -->
                     </div>
                 </div>
-                <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-phone"></div>
-            </div>
+            </section>
+            
 
+            <section class="mdl-layout__tab-pannel" id="scroll-tab-3">
+                <div class="page-content">
+                    
+                </div>
+            </section>
 
+            <!--
             <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--4-phone mdl-cell--4-col-tablet">
-                    <ul class="mdl-list">
-                        <li class="mdl-list__item mdl-list__item--three-line">
-                            <span class="mdl-list__item-primary-content">
-                                <span>Mishima, E., Umezawa, S. 2018</span>
-                                <span class="mdl-list__item-text-body">
-                                    Mishima, E., Umezawa, S., Suzuki, T., Fujimura, M., Abe, M., Hashimoto, J., Abe, T. and Ito, S. (2018). Low frequency of cervicocranial artery involvement in Japanese with renal artery fibromuscular dysplasia compared with that of Caucasians. Clinical and experimental nephrology, 1-6.
-                                </span>
-                            </span>
-                            <span class="mdl-list__item-secondary-content"></span>
-                        </li>
-                    </ul>
+                <div class="mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--6-col-phone">
+                    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selection">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>JOUR</td>
+                                <td>Low frequency of cervicocranial artery involvement in Japanese with renal artery fibromuscular dysplasia compared with that of Caucasians</td>
+                                <td>Mishima, Eikan
+                                    Umezawa, Shu
+                                    Suzuki, Takehiro
+                                    Fujimura, Miki
+                                    Abe, Michiaki
+                                    Hashimoto, Junichiro
+                                    Abe, Takaaki
+                                    Ito, Sadayoshi</td>
+                                <td>Clinical and experimental nephrology</td>
+                                <td>1</td>
+                                <td>6</td>
+                                <td>1342-1751</td>
+                                <td>2018</td>
+                                <td>Springer</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+            -->
             
         </main>
     </div>
