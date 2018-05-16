@@ -31,7 +31,7 @@
 
 ## Authors
 
-* @shumez
+* [@shumez]
 
 
 ## License
@@ -41,6 +41,8 @@ see the [LICENSE.md]
 ## Acknowledgements
 
 
+[@shumez]: https://github.com/shumez
+<!-- [shumez.github.io]: https://github.com/shumez/shumez.github.io -->
 [CHANGELOG.md]: CHANGELOG.md
 [DOCUMENT.md]: DOCUMENT.md
 [LICENSE.md]: LICENSE.md
