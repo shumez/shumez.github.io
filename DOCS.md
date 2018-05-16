@@ -2,13 +2,13 @@
 @Author: shumez
 @Date:   2018-05-16 16:39:69
 @Project: shumez.github.io
-@Filename: DOCUMENT.md
+@Filename: DOCS.md
 @Last modified by:   shumez
 @Last modified time: 2018-05-16 16:44:32
 -->
 
 
-# Document
+# Docs
 
 
 ## Files
