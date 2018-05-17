@@ -15,14 +15,21 @@
     height: 100%;
     /*background-size: cover;*/
     /*background-position: center;*/
-    background: url('/img/cover-fmd.png') center / cover;
+    background: url('/img/icon-fmd.png') center / cover;
 }
 #jsh2016.mdl-card{
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-    background: url('/img/cover-jfmd.png') center / cover;
+    background: url('/img/icon-jsh2016.png') center / cover;
+}
+#ohbm2016.mdl-card{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background: url('/img/icon-ohbm2016.png') center / cover;
 }
 #logo{
     width: 
