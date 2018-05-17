@@ -1,6 +1,6 @@
 # js
 
-$('document').ready(function(){
+$(document).ready(function(){
 
 	$('.my-section').hide();
 	$('.section-active').show();
