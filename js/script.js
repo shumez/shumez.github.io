@@ -2,8 +2,8 @@
 $(document).ready(function(){
 
 
-	$('.my-section').hide();
-	$('.section-active').show();
+	// $('.my-section').hide();
+	// $('.section-active').show();
 
 	$('.mdl-navigation > .my-nav-home').click(function(){
 		$('.section-active').removeClass('section-active');

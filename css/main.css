@@ -1,5 +1,10 @@
 /* stylesheet main.css */
-
+section.my-section{
+    visibility: hidden;
+}
+section.section-active{
+    visibility: visible;
+}
 
 .mdl-layout{
     background: url('/img/bg-neuron.jpg');
