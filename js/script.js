@@ -1,6 +1,6 @@
 // script.js
-
 $(document).ready(function(){
+
 
 	$('.my-section').hide();
 	$('.section-active').show();
@@ -44,4 +44,4 @@ $(document).ready(function(){
 		$('.my-nav-active').removeClass('my-nav-active');
 		$('.my-nav-proj').addClass('my-nav-active');
 	});
-};
+});
