@@ -7,6 +7,16 @@ section.section-active{
     /*visibility: visible;*/
     display: block;
 }
+.my-title{
+    display: none;
+}
+.my-title-active{
+    display: inline;
+}
+
+.my-nav > a.my-nav-active{
+    display: none;
+}
 
 .mdl-layout{
     background: url('/img/bg-neuron.jpg');

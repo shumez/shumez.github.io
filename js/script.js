@@ -13,6 +13,7 @@ $(document).ready(function(){
 		$('.my-nav-active').removeClass('my-nav-active');
 		$('.my-nav-home').addClass('my-nav-active');
 
+		
 	});
 
 
