@@ -27,7 +27,7 @@ section.section-active{
     background-size: cover;
     background-position: center center;
 }
-.mdl-list__item{
+ul.mdl-list{
     background-color: white;
 }
 
