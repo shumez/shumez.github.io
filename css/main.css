@@ -32,7 +32,8 @@ section.section-active{
     height: 100%;
     background-size: cover;
     background-position: center;
-    background: url('/img/icon-fmd.png') center / cover;
+    /*background: url('/img/icon-fmd.png') center / cover;*/
+    background: url('/img/ClinExpNephro.jpg') center / cover;
 }
 #jsh2016.mdl-card{
     width: 100%;
