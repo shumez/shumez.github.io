@@ -1,4 +1,9 @@
 /* stylesheet main.css */
+
+h1, h2, h3, h4, h5, h6, p, a, b, u, li, th td, span{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 section.my-section{
     /*visibility: hidden;*/
     display: none;
