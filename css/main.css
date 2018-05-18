@@ -15,7 +15,7 @@ section.section-active{
 }
 .my-subtitle{
     color: white;
-    text-shadow: 2px 2px #ff0000;
+    /*text-shadow: 2px 2px #ff0000;*/
 }
 
 .my-nav > a.my-nav-active{
