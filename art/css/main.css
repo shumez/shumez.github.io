@@ -1,0 +1,70 @@
+/* stylesheet main.css */
+
+h1, h2, h3, h4, h5, h6, p, a, b, u, li, th td, span{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+section.my-section{
+    /*visibility: hidden;*/
+    display: none;
+}
+section.section-active{
+    /*visibility: visible;*/
+    display: block;
+}
+.my-title{
+    display: none;
+}
+.my-title-active{
+    display: inline;
+}
+.my-subtitle{
+    color: white;
+    /*text-shadow: 2px 2px #ff0000;*/
+}
+
+.my-nav > a.my-nav-active{
+    display: none;
+}
+
+.mdl-layout{
+    /*background: url('/img/bg-neuron.jpg');*/
+    /*background: url('http://www.toca-ch.com/data/walls/127/25966247.jpg');*/
+    /*background: url('http://bsnscb.com/data/out/22/39154080-blackboard-wallpapers.jpg');*/
+    /*background: url('img/bg-backboard.jpg');*/
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+ul.mdl-list{
+    background-color: white;
+}
+
+#mishima2018.mdl-card{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;/* top;*/
+    background: url('/img/icon-fmd.png') center / cover;
+    /*background: url('/img/ClinExpNephro.jpg') center / cover;*/
+}
+#jsh2016.mdl-card{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('/img/icon-jsh2016.png');
+}
+#ohbm2016.mdl-card{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('/img/icon-ohbm2016.png');
+}
+#logo{
+    width: 
+}
+footer{
+    opacity: 0;
+}
