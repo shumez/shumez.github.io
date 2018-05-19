@@ -1,5 +1,5 @@
 {
-	"articles": [
+	"article": [
 		// {
 		// 	"type": "article",
 		// 	"tag": "",
@@ -11,35 +11,36 @@
 		// 	"publisher": ""
 		// },
 		{
-			"type": "article",
-			"tag": "mishima2018low",
+			"tag": "mishima2018",
 			"title": "Low frequency of cervicocranial artery involvement in Japanese with renal artery fibromuscular dysplasia compared with that of Caucasians",
 		  	"author": "Mishima, Eikan and Umezawa, Shu and Suzuki, Takehiro and Fujimura, Miki and Abe, Michiaki and Hashimoto, Junichiro and Abe, Takaaki and Ito, Sadayoshi",
 		  	"journal": "Clinical and experimental nephrology",
 			"pages": "1--6",
 			"year": "2018",
 			"publisher": "Springer"
-		},
-		{
-			"type": "",
-			"tag": "",
-			"title": "Low Frequency of Cervicocranial artery involvement in Japanese with Renal Artery Fibromuscular Dysplasia.",
-		  	"author": "Umezawa, Shu",
-		  	"journal": "The 39th Annual Scientific Meeting of Japanese Society of Hypertension, Oral Session.",
-			"pages": "",
-			"year": "2016",
-			"publisher": ""
-		},
-		{
-			"type": "",
-			"tag": "",
-			"title": "",
-		  	"author": "",
-		  	"journal": "",
-			"pages": "",
-			"year": "",
-			"publisher": ""
 		}
 	],
-	"presentations": []
+	"presentations": [
+		// {
+		// 	"tag": "",
+		// 	"title": "",
+		// 	"author": "",
+		// 	"conference": "",
+		// 	"year": ""
+		// },
+		{
+			"tag": "jsh2016",
+			"title": "Low Frequency of Cervicocranial artery involvement in Japanese with Renal Artery Fibromuscular Dysplasia.",
+			"author": "Umezawa, Shu",
+			"conference": "The 39th Annual Scientific Meeting of Japanese Society of Hypertension, Oral Session.",
+			"year": "2016"
+		},
+		{
+			"tag": "ohbm2016",
+			"title": "Effects of Participation and Expertise on Contextual Meaning Acquisition.",
+			"author": "Umezawa, Shu",
+			"conference": "The 22nd Annual Meeting of the Organization for Human Brain Mapping, Poster Session",
+			"year": "2016"
+		}
+	]
 }
