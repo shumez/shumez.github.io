@@ -7,7 +7,7 @@
 // 	});
 // });
 
-$.getJSON('data/data.json', function(data){
+$jQuery.getJSON('data/data.json', function(data){
 	// $('ul#my-bib').append('<li>' + data[0].division + '</li>');
 	$('main').append('<p>' + data[0].division + '</p>');
 });
