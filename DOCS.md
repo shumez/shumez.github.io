@@ -32,12 +32,35 @@
 │   ├── mishima2018low.bib
 │   └── pub.tsv
 ├── demo
-│   └── mdl-template-blog
-│       ├── LICENSE
-│       ├── entry.html
-│       ├── images
+│   ├── mdl-template-blog
+│   │   ├── LICENSE
+│   │   ├── entry.html
+│   │   ├── images
+│   │   │   ├── android-desktop.png
+│   │   │   ├── avatar.png
+│   │   │   ├── bg_1024.jpg
+│   │   │   ├── bg_2048.jpg
+│   │   │   ├── bg_2880.jpg
+│   │   │   ├── co1.jpg
+│   │   │   ├── co2.jpg
+│   │   │   ├── coffee.jpg
+│   │   │   ├── favicon.png
+│   │   │   ├── ios-desktop.png
+│   │   │   ├── logo.png
+│   │   │   ├── road.jpg
+│   │   │   ├── road_big.jpg
+│   │   │   └── shopping.jpg
+│   │   ├── index.html
+│   │   └── styles.css
+│   └── test
+│       ├── css
+│       │   └── main.css
+│       ├── data
+│       │   └── bib.json
 │       ├── index.html
-│       └── styles.css
+│       └── js
+│           ├── getjson.js
+│           └── script.js
 ├── deprecated
 │   ├── docs
 │   │   └── index.html
@@ -62,6 +85,7 @@
 ├── index.html
 ├── js
 │   ├── bib.js
+│   ├── getjson.js
 │   └── script.js
 ├── physician
 │   └── index.html
