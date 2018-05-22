@@ -1,7 +1,8 @@
 // get JSON
 $(document).ready(function(){
-	$.getJSON('/data/bib.json', function(data){
-		$('.').
+	$.getJSON('data/bib.json', function(bib){
+		$('#my-bib').append("<li>" + bib.article[0].tag + "</li>");
+		
 		// for(var i in data){
 
 		// }

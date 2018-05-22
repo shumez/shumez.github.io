@@ -1,0 +1,64 @@
+{
+	"article": [
+		// {
+		// 	"tag": "",
+		// 	"title": "",
+		// 	"author": [
+		// 		{"last": "", "first": ""},
+		// 		{"last": "", "first": ""}
+		// 	],
+		//   	"journal": "",
+		// 	"pages": "",
+		// 	"year": "",
+		// 	"publisher": ""
+		// },
+		{
+			"tag": "mishima2018low",
+			"title": "Low frequency of cervicocranial artery involvement in Japanese with renal artery fibromuscular dysplasia compared with that of Caucasians",
+		  	"author": [
+		  		{"last": "Mishima", "first": "Eikan"}, 
+		  		{"last": "Umezawa", "first": "Shu"}, 
+		  		{"last": "Suzuki", "first": "Takehiro"},
+		  		{"last": "Fujimura", "first": "Miki"},
+		  		{"last": "Abe", "first": "Michiaki"},
+		  		{"last": "Hashimoto", "first": "Junichiro"},
+		  		{"last": "Abe", "first": "Takaaki"},
+		  		{"last": "Ito", "first": "Sadayoshi"}
+		  	],
+		  	"journal": "Clinical and experimental nephrology",
+			"pages": "1--6",
+			"year": "2018",
+			"publisher": "Springer"
+		}
+	],
+	"presentation": [
+		// {
+		// 	"tag": "",
+		// 	"title": "",
+		// 	"author": [
+		// 		{"last": "", "first": ""},
+		// 		{"last": "", "first": ""}
+		// 	],
+		// 	"conference": "",
+		// 	"year": ""
+		// },
+		{
+			"tag": "umezawa2016jsh",
+			"title": "Low Frequency of Cervicocranial artery involvement in Japanese with Renal Artery Fibromuscular Dysplasia.",
+			"author": [
+				{"last": "Umezawa", "first": "Shu"}
+			],
+			"conference": "The 39th Annual Scientific Meeting of Japanese Society of Hypertension, Oral Session.",
+			"year": "2016"
+		},
+		{
+			"tag": "umezawa2016ohbm",
+			"title": "Effects of Participation and Expertise on Contextual Meaning Acquisition.",
+			"author": [
+				{"last": "Umezawa", "first": "Shu"}
+			],
+			"conference": "The 22nd Annual Meeting of the Organization for Human Brain Mapping, Poster Session",
+			"year": "2016"
+		}
+	]
+}
