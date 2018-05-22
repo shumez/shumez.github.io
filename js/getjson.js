@@ -1,14 +1,23 @@
 // get JSON
-$(document).ready(function(){
-	$.getJSON('data/bib.json', function(bib){
-		$('#my-bib').append("<li>" + bib.article[0].tag + "</li>");
-		
-		// for(var i in data){
+// $(document).ready(function(){
+// 	$.getJSON('data/bib.json', function(bib){
+// 		$('#my-bib').append("<li>" + bib.article[0].tag + "</li>");
 
-		// }
-	});
+		
+// 	});
+// });
+
+$.getJSON('data/data.json', function(data){
+	// $('ul#my-bib').append('<li>' + data[0].division + '</li>');
+	$('main').append('<p>' + data[0].division + '</p>');
 });
 
+// $(document).ready(function(){
+// 	$.getJSON('data/data.json', function(data){
+// 		// $('ul#my-bib').append('<li>' + data[0].division + '</li>');
+// 		$('body').append('<p>' + data[0].division + '</p>');
+// 	});
+// });
 
 // $(document).ready(function () {
 //     $.getJSON("data.json", function(data){
