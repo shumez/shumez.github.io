@@ -26,15 +26,21 @@ section.section-active{
 .my-nav > a.my-nav-active{
     display: none;
 }
-
+.mdl-layout__tab-bar{
+    background-color: rgba(0, 0, 0, 0);
+}
+.mdl-layout__tab-bar > a{
+    text-transform: none;
+}
 .mdl-layout{
-    background: url('/img/bg-neuron.jpg');
+    /*background: url('/img/bg-neuron.jpg');*/
     /*background: url('http://www.toca-ch.com/data/walls/127/25966247.jpg');*/
     /*background: url('http://bsnscb.com/data/out/22/39154080-blackboard-wallpapers.jpg');*/
     /*background: url('img/bg-backboard.jpg');*/
     /*background-color: #003B3B;*/
-    background-size: cover;
-    background-position: center center;
+    /*background-size: cover;*/
+    /*background-position: center center;*/
+    background-color: #1D252C;
 }
 ul.mdl-list{
     background-color: white;
@@ -65,6 +71,10 @@ ul.mdl-list{
 #logo{
     width: 
 }
+.calendar{
+    background-color: white;
+}
+
 footer{
     opacity: 0;
 }
