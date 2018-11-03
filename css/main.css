@@ -46,12 +46,16 @@ ul.mdl-list{
     background-color: white;
 }
 
+a.mdl-button{
+    background-color: #1D252C;
+}
+
 #mishima2018.mdl-card{
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;/* top;*/
-    background: url('/img/icon-fmd.png') center / cover;
+    background: url('/img/icon-fmd.jpg') center / cover;
     /*background: url('/img/ClinExpNephro.jpg') center / cover;*/
 }
 #jsh2016.mdl-card{
