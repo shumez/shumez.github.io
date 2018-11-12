@@ -1,7 +1,15 @@
 /* stylesheet main.css */
 
-h1, h2, h3, h4, h5, h6, p, a, b, u, li, th td, span{
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+h1, h2, h3, h4, h5, h6, p, a, b, u, li, th td, span, div, nav{
+    /*font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
+
+    font-family: 'KoHo', sans-serif;
+    /*font-family: 'Source Code Pro', monospace;*/
+    /*font-family: 'Ubuntu Mono', monospace;*/
+}
+
+span.mdl-layout-title{
+    font-family: 'KoHo', sans-serif;
 }
 
 section.my-section{
