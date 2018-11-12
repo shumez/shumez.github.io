@@ -55,4 +55,11 @@ $(document).ready(function(){
 		$('.my-title-active').removeClass('my-title-active');
 		$('.my-title-proj').addClass('my-title-active');
 	});
+
+	$(document).keydown(function(event){
+		if (event.which == 80){
+			$('#priv').toggle();
+			$('#prive-tab').toggle();
+		}
+	});
 });
