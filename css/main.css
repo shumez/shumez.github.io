@@ -54,6 +54,11 @@ ul.mdl-list{
     background-color: white;
 }
 
+ul.mdl-list a{
+    text-decoration: none;
+    color: #1D252C;
+}
+
 a.mdl-button{
     background-color: #1D252C;
 }
